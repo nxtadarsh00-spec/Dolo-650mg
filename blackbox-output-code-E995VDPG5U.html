@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolo 650 - Paracetamol Medicine Information</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            font-size: 2.5em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .info-card {
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .info-card:hover {
+            transform: translateY(-5px);
+        }
+        .info-card h2 {
+            color: #e74c3c;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        .info-card h3 {
+            color: #34495e;
+            margin: 20px 0 10px 0;
+        }
+        .dosage-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .dosage-table th, .dosage-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .dosage-table th {
+            background: #e74c3c;
+            color: white;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .warning h3 {
+            color: #e17055;
+            margin-bottom: 10px;
+        }
+        .side-effects {
+            list-style: none;
+        }
+        .side-effects li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .side-effects li:before {
+            content: "⚠️";
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .disclaimer {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            .logo {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Dolo 650</div>
+            <p class="tagline">Paracetamol 650mg - Pain Relief & Fever Reducer</p>
+        </header>
+
+        <div class="main-content">
+            <div class="info-card">
+                <h2>📋 Medicine Information</h2>
+                <p><strong>Generic Name:</strong> Paracetamol (Acetaminophen)</p>
+                <p><strong>Brand Name:</strong> Dolo 650</p>
+                <p><strong>Strength:</strong> 650 mg per tablet</p>
+                <p><strong>Form:</strong> Tablet</p>
+                <p><strong>Uses:</strong></p>
+                <ul>
+                    <li>Relief from mild to moderate pain (headache, toothache, muscle pain, backache)</li>
+                    <li>Reduces fever</li>
+                    <li>Common cold and flu symptoms</li>
+                    <li>Post-surgical pain relief</li>
+                </ul>
+
+                <h3>💊 Dosage Guidelines</h3>
+                <table class="dosage-table">
+                    <thead>
+                        <tr>
+                            <th>Age Group</th>
+                            <th>Recommended Dosage</th>
+                            <th>Frequency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adults (13+ years)</td>
+                            <td>1-2 tablets (650-1300mg)</td>
+                            <td>Every 6-8 hours</td>
+                        </tr>
+                        <tr>
+                            <td>Children (6-12 years)</td>
+                            <td>1/2 to 1 tablet (325-650mg)</td>
+                            <td>Every 6-8 hours</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Daily Dose</td>
+                            <td>4g (4000mg)</td>
+                            <td>Do not exceed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="info-card">
+                <h2>⚠️ Precautions & Warnings</h2>
+                
+                <div class="warning">
+                    <h3>Important Safety Information</h3>
+                    <p><strong>Do not exceed recommended dosage.</strong> Overdose can cause severe liver damage.</p>
+                </div>
+
+                <h3>Side Effects</h3>
+                <ul class="side-effects">
+                    <li>Rare: Nausea, vomiting, stomach pain</li>
+                    <li>Allergic reactions (rash, itching, swelling)</li>
+                    <li>Liver damage (with overdose)</li>
+                </ul>
+
+                <h3>Contraindications</h3>
+                <ul>
+                    <li>Severe liver disease</li>
+                    <li>Allergy to paracetamol</li>
+                    <li>Do not use with other paracetamol-containing products</li>
+                </ul>
+
+                <h3>Drug Interactions</h3>
+                <ul>
+                    <li>Warfarin (may increase bleeding risk)</li>
+                    <li>Other pain relievers containing paracetamol</li>
+                    <li>Alcohol (increases liver damage risk)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <h2>🩺 When to Consult a Doctor</h2>
+            <ul>
+                <li>Pain persists for more than 3 days</li>
+                <li>Fever lasts more than 3 days</li>
+                <li>Symptoms worsen or new symptoms appear</li>
+                <li>Signs of allergic reaction</li>
+                <li>History of liver/kidney disease</li>
+                <li>Pregnant or breastfeeding</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p><strong>⚕️ Always consult your healthcare professional before use.</strong></p>
+            <p class="disclaimer">
+                This website provides general information about Dolo 650 (Paracetamol 650mg). 
+                It is not a substitute for professional medical advice, diagnosis, or treatment. 
+                Always seek the advice of your physician or qualified healthcare provider.
+            </p>
+            <p>&copy; 2024 Dolo Information Portal. For educational purposes only.</p>
+        </footer>
+    </div>
+</body>
+</html>
